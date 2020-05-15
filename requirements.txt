@@ -1,0 +1,6 @@
+tf-nightly-gpu>=2.3.0.dev20200514
+keras>=2.2.4
+numpy>=1.16.4
+h5py>=2.8.0 
+opencv-python>=4.2.0.34
+matplotlib>=3.2.1

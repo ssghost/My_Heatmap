@@ -21,7 +21,7 @@ class Heatmap:
         self.image = np.expand_dims(array, axis=0)
 
     def read_model(self, modelpath):
-        self.model = keras.load_model(modelpath)
+        self.model = keras.models.load_model(modelpath)
         self.size = self.model.input_shape
         self.layers = [[layer.name, layer.type] for layer in self.model.layers]
         i = len(self.layers)-1

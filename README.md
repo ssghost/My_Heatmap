@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/ssghost/My_Heatmap.svg?style=svg&circle-token=71244471c280eb0d186a5effdb919e62dde849b7)](https://app.circleci.com/pipelines/github/ssghost/My_Heatmap)
 # My_Heatmap
 A Visualisation Plug-in Toolkit for Convolutional Neural Models. 
 ## Usage

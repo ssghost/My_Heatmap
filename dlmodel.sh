@@ -1,0 +1,1 @@
+gh repo clone https://github.com/ssghost/My_Resnet && cp -r ./My_Resnet/*.h5 ./

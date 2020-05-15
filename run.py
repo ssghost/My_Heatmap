@@ -20,10 +20,11 @@ def main():
         else:
             assert False, 'unhandled option'
     
-    Heatmap().read_model(modelpath)
-    Heatmap().image_array(imagepath)
-    Heatmap().create_heatmap()
-    Heatmap().display_heatmap(imagepath,outpath)
+    if imagepath and outpath and modelpath:
+        Heatmap().read_model(modelpath)
+        Heatmap().image_array(imagepath)
+        Heatmap().create_heatmap()
+        Heatmap().display_heatmap(imagepath,outpath)
     
 if __name__ == "__main__":
     main()
